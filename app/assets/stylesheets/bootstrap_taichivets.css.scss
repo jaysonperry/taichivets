@@ -1,0 +1,104 @@
+
+
+
+// army yellow #f3c11f
+// ranger red #ba0f02
+// ranger scroll black #1e1d1d
+// navy gold #b58c0a
+// navy blue #1c146b
+// Airforce Silver #838996
+// Marine Red #ee3d42
+// Marine Blue #004685
+// og blue #0052a5
+// og red #e0162b
+// turquise accent #04b9d9
+// lite grape #e2dae8
+// flat grape #6f6685
+
+// color system
+  $brand-primary: #004685;
+  $brand-success: #978e22;
+  $brand-warning: #f3c11f;
+  $brand-danger: #ba0f02;
+  $brand-info: #838996;
+
+
+// Body scaffolding
+  $body-bg: #f4f4ff;
+  $text-color: #1e1d1d;
+  $link-color: #428bca; 
+  $link-hover-color: darken($link-color, 25%);
+
+// Also as default border color
+  $btn-default-border: #1e1d1d;
+
+
+// Borders & Boxes
+  // Rounded corners
+  $border-radius-base: 4px;
+  $border-radius-large: 6px;
+  $border-radius-small: 3px;
+  
+
+
+// navigation bar styling
+  $navbar-height: 50px;
+  $navbar-default-color: #ffffee;
+  $navbar-default-bg: #6f6685;
+  $navbar-defualt-border: darken($navbar-default-bg, 10%);
+// links  
+  $navbar-default-link-color: #ffffee;
+  $navbar-default-link-hover-color: darken($navbar-default-link-color, 7.5%);
+  $navbar-default-link-hover-bg: darken($navbar-default-bg, 7.5%);
+  $navbar-default-link-active-color: #ffffff;
+  $navbar-default-link-active-bg: lighten($navbar-default-bg, 7.5%);
+  $navbar-default-link-disabled-color: #333363;
+  $navbar-default-link-disabled-bg: transparent;
+// brand  
+  $navbar-default-brand-color: #ffffee;
+  $navbar-default-brand-hover-color: #ffffff;
+  $navbar-default-brand-hover-bg: #ffffff;
+
+// Panels and wells
+  // Common panel styles
+  $panel-bg: lighten($body-bg, 10%);
+  $panel-border-radius: $border-radius-base;
+/*  $panel-inner-border: ;
+    //Border color for elements within panels
+  $panel-footer-bg: ;
+
+// Contextual panel colors
+  // Default
+  $panel-default-text: ;
+  $panel-default-border: ;
+  $panel-default-heading-bg: ;
+  // Primary
+  $panel-primary-text: ;
+  $panel-primary-border: ;
+  $panel-primary-heading-bg: ;
+  // Success
+  $panel-success-text: ;
+  $panel-success-border: ;
+  $panel-success-heading-bg: ;
+  // Info
+  $panel-info-text: ;
+  $panel-info-border: ;
+  $panel-info-heading-bg: ;
+  // Warning
+  $panel-warning-text: ;
+  $panel-warning-border: ;
+  $panel-warning-heading-bg: ;
+  // Danger
+  $panel-danger-text: ;
+  $panel-danger-border: ;
+  $panel-danger-heading-bg: ;
+
+// Wells
+  $well-bg: ;
+*/
+// include bootstrap
+  @import "bootstrap";
+
+// include boostrap theme
+// @import "bootstrap/theme";
+
